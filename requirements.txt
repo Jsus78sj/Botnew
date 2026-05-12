@@ -24,3 +24,4 @@ py-cpuinfo>=9.0.0
 requests>=2.31.0
 meval>=0.6.0
 pytio>=0.2.0
+Flask==2.3.2
