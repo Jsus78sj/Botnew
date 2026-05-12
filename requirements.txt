@@ -1,13 +1,26 @@
 # ============================================================
-#Group Manager Bot
-# Author: LearningBotsOfficial (https://github.com/LearningBotsOfficial) 
-# Support: https://t.me/LearningBotsCommunity
-# Channel: https://t.me/learning_bots
-# YouTube: https://youtube.com/@learning_bots
-# License: Open-source (keep credits, no resale)
+# Group Manager Bot â€” requirements
 # ============================================================
+
+# Pyrogram & crypto
 pyrogram==2.0.106
 tgcrypto==1.2.5
+
+# MongoDB (existing features)
 motor==3.1.1
 pymongo[srv]==4.6.3
+
+# Env vars
 python-dotenv==1.0.1
+
+# â”€â”€ Redis / Upstash â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+upstash-redis>=1.0.0      # for Upstash REST (Render/cloud)
+redis>=4.6.0              # for standard Redis TCP (VPS/local)
+
+# â”€â”€ R3D plugin dependencies â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+pytz>=2023.3
+psutil>=5.9.0
+py-cpuinfo>=9.0.0
+requests>=2.31.0
+meval>=0.6.0
+pytio>=0.2.0
